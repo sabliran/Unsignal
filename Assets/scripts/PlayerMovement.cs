@@ -24,6 +24,6 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         // Apply movement to Rigidbody2D
-        rb.velocity = movement * moveSpeed;
+        rb.linearVelocity = movement * moveSpeed;
     }
 }
